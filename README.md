@@ -8,12 +8,13 @@ Visit [Demo Page](http://www.the8thocean.com/misc/jqueryplugins/fitBoxScroller/d
 
 ## JAVASCRIPT side
 
-		$('#unique_id').fixBoxScroller({options});
+		$('#unique_id').fitBoxScroller({options});
 
 #### Options
 
 *inclImage: if the content has images, this must be true ... (boolean) (default - false)
 *bar: style of the scroll bar ... (object)
+
 		{
 			size: scroll bar width ... (int) (default - 20)
 			backColor: scroll bar color ... (string) (default - '#f00')
@@ -23,6 +24,7 @@ Visit [Demo Page](http://www.the8thocean.com/misc/jqueryplugins/fitBoxScroller/d
 			frameBorderStyle: border style of scroll bar frame ... (string) (default - 'solid')
 			frameBackground: background color of scroll bar frame ... (string) (default - '')
 		}
+
 *isTouchAreaBar: for mobile devices, scrolled by the scroll bar or not ... (boolean) (default - false)
 
 #### jQuery Mousewheel plugin required (option)
