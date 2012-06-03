@@ -12,8 +12,8 @@ Visit [Demo Page](http://www.the8thocean.com/misc/jqueryplugins/fitBoxScroller/d
 
 #### Options
 
-*inclImage: if the content has images, this must be true ... (boolean) (default - false)
-*bar: style of the scroll bar ... (object)
+*	inclImage: if the content has images, this must be true ... (boolean) (default - false)
+*	bar: style of the scroll bar ... (object)
 
 		{
 			size: scroll bar width ... (int) (default - 20)
@@ -25,6 +25,6 @@ Visit [Demo Page](http://www.the8thocean.com/misc/jqueryplugins/fitBoxScroller/d
 			frameBackground: background color of scroll bar frame ... (string) (default - '')
 		}
 
-*isTouchAreaBar: for mobile devices, scrolled by the scroll bar or not ... (boolean) (default - false)
+*	isTouchAreaBar: for mobile devices, scrolled by the scroll bar or not ... (boolean) (default - false)
 
 #### jQuery Mousewheel plugin required (option)
